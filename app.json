@@ -1,5 +1,8 @@
 {
+  "title": "Test Title",
+  "description": "Test Description",
   "expo": {
+    "owner": "vkoshcheev",
     "name": "ChannelServiceTest",
     "slug": "ChannelServiceTest",
     "version": "1.0.0",
@@ -18,16 +21,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vkoshcheev.ChannelServiceTest"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.vkoshcheev.ChannelServiceTest"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d756e907-0e7d-4913-8158-715d60630521"
+      }
     }
   }
 }
